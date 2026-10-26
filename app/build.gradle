@@ -3,16 +3,16 @@ import com.android.build.OutputFile
 apply plugin: 'com.android.application'
 
 android {
-    namespace "io.github.muntashirakon.setedit"
+    namespace "io.github.AndrheySeven7th.seteditnext"
     compileSdk 34
 
     defaultConfig {
-        applicationId "io.github.muntashirakon.setedit"
-        minSdk 21
+        applicationId "io.github.AndrheySeven7th.seteditnext"
+        minSdk 17
         //noinspection ExpiredTargetSdkVersion
-        targetSdk 22
-        versionCode 9
-        versionName "3.0-rc01"
+        targetSdk 37
+        versionCode 7
+        versionName "7.14"
         resConfig "en"
     }
 
