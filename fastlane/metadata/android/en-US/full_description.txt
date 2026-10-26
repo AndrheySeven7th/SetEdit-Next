@@ -11,10 +11,10 @@ This app needs to target API 22 because API 23 (Android M) onwards do not allow 
 In Android 14 onwards, a new restriction has been added that prevents an app targeting API 22 or earlier to be installed without elevated permission.
 You can install the application from an ADB shell using the following command:
 
-adb install --bypass-low-target-sdk-block SetEdit.apk
+adb install --bypass-low-target-sdk-block SetEdit-Next.apk
 
 Or, from a rooted shell:
 
-pm install --bypass-low-target-sdk-block SetEdit.apk
+pm install --bypass-low-target-sdk-block SetEdit-Next.apk
 
 (Replace `SetEdit.apk` with the actual file name or location.)
